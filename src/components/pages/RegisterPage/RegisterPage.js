@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
+import './RegisterPage.css';
 
 class RegisterPage extends Component {
   state = {
@@ -31,7 +32,7 @@ class RegisterPage extends Component {
 
   render() {
     return (
-      <div>
+      <div className="register-page">
         {this.props.errors.registrationMessage && (
           <h2
             className="alert"
@@ -42,7 +43,7 @@ class RegisterPage extends Component {
         )}
         <form onSubmit={this.registerUser}>
           <h1>Register User</h1>
-          <div>
+          <div className="input-labels">
             <label htmlFor="username">
               Username:
               <input
@@ -53,7 +54,7 @@ class RegisterPage extends Component {
               />
             </label>
           </div>
-          <div>
+          <div className="input-labels">
             <label htmlFor="password">
               Password:
               <input
@@ -64,7 +65,7 @@ class RegisterPage extends Component {
               />
             </label>
           </div>
-          <div>
+          <div className="register-btn">
             <input
               className="register"
               type="submit"

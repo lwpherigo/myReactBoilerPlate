@@ -92,13 +92,13 @@ This code is also heavily commented. We recommend reading through the comments, 
   * App/App
   * Footer/Footer
   * Nav/Nav
-  * AboutPage/AboutPage
-  * InfoPage/InfoPage
-  * UserPage/UserPage
-  * LoginPage/LoginPage
-  * RegisterPage/RegisterPage
   * LogOutButton/LogOutButton
   * ProtectedRoute/ProtectedRoute
+  * pages/AboutPage/AboutPage
+  * pages/InfoPage/InfoPage
+  * pages/UserPage/UserPage
+  * pages/LoginPage/LoginPage
+  * pages/RegisterPage/RegisterPage
 
 ## Deployment
 
